@@ -13,7 +13,7 @@ import (
 )
 
 func main() {
-	db, err := sqlx.Open("postgres", "postgres:///sneak?sslmode=disable")
+	db, err := sqlx.Open("postgres", "remove consrt")
 	if err != nil {
 		panic(err)
 	}
